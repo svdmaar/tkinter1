@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36e67a4c-98be-4205-a280-3d481e46efa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tkinter1.py</StartupFile>
+    <StartupFile>basics.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="basics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tkinter1.py" />
   </ItemGroup>
   <ItemGroup>
