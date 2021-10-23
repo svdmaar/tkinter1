@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36e67a4c-98be-4205-a280-3d481e46efa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>frames1.py</StartupFile>
+    <StartupFile>pack1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="frames1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pack1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tkinter1.py" />
