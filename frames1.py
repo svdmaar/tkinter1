@@ -2,8 +2,16 @@ import tkinter as tk
 
 window = tk.Tk()
 
-frame = tk.Frame()
-frame.pack()
+frame_a = tk.Frame(relief=tk.RAISED, borderwidth=5)
+frame_b = tk.Frame(relief=tk.GROOVE, borderwidth=5)
+
+label_a = tk.Label(master=frame_a, text="I'm in Frame A")
+label_a.pack()
+
+label_b = tk.Label(master=frame_b, text="I'm in Frame B")
+label_b.pack()
+
+frame_b.pack()
+frame_a.pack()
 
 window.mainloop()
-
