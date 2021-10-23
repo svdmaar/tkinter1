@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36e67a4c-98be-4205-a280-3d481e46efa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pack1.py</StartupFile>
+    <StartupFile>grid1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,7 +27,13 @@
     <Compile Include="frames1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="grid1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pack1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="place1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="tkinter1.py" />
