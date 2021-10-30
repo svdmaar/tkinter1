@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>36e67a4c-98be-4205-a280-3d481e46efa8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>grid1.py</StartupFile>
+    <StartupFile>location1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="grid1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="location1.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pack1.py">
